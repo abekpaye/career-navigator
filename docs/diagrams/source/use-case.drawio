@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" pages="1"><diagram id="02-use-cases" name="Use Cases">
+    <mxGraphModel dx="2341" dy="1198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1510" pageHeight="1690" background="#ffffff" math="0" shadow="0" adaptiveColors="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;strokeColor=none;fillColor=none;align=left;fontStyle=1;" value="Use case diagram" vertex="1">
+          <mxGeometry height="60" width="1390" x="650" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=22;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#fafcfe;spacing=12;rounded=0;verticalAlign=top;align=left;spacingTop=15;spacingLeft=20;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="1470" width="960" x="300" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="user" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=20;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=white;spacing=12;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" value="User" vertex="1">
+          <mxGeometry height="125" width="90" x="85" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="account" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="Manage account&#10;(register, sign in / out)" vertex="1">
+          <mxGeometry height="92" width="370" x="395" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="profile" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="Create and edit profile" vertex="1">
+          <mxGeometry height="92" width="370" x="395" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="catalogue" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="Browse profession catalogue" vertex="1">
+          <mxGeometry height="92" width="370" x="395" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="results" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="View / explicitly refresh&#10;career recommendations" vertex="1">
+          <mxGeometry height="92" width="370" x="395" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="compare" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="Compare two professions&#10;[Should]" vertex="1">
+          <mxGeometry height="92" width="370" x="395" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="target" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="Choose any target profession" vertex="1">
+          <mxGeometry height="92" width="370" x="395" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="create" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="Create / replace roadmap" vertex="1">
+          <mxGeometry height="92" width="370" x="395" y="985" as="geometry" />
+        </mxCell>
+        <mxCell id="saved" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="Open saved roadmap&#10;and earlier plans" vertex="1">
+          <mxGeometry height="92" width="370" x="395" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="progress" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="Update / undo step progress" vertex="1">
+          <mxGeometry height="92" width="370" x="395" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="hours" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="Change weekly study time" vertex="1">
+          <mxGeometry height="92" width="370" x="395" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="upload" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#f1ebfa;spacing=12;ellipse;" value="Import PDF / DOCX CV" vertex="1">
+          <mxGeometry height="92" width="290" x="890" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="review" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;ellipse;" value="Review and save&#10;profile information" vertex="1">
+          <mxGeometry height="92" width="290" x="890" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="explain" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#f1ebfa;spacing=12;ellipse;" value="Prepare source-based&#10;step explanations" vertex="1">
+          <mxGeometry height="100" width="290" x="890" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="ai" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=white;spacing=12;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" value="External AI&#10;provider" vertex="1">
+          <mxGeometry height="125" width="85" x="1350" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="user_account" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="account" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_profile" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="profile" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_catalogue" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="catalogue" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_results" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="results" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_compare" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="compare" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_target" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="target" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_create" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="create" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_saved" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="saved" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_progress" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="progress" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_hours" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="hours" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="upload_profile" edge="1" parent="1" source="upload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.25;entryPerimeter=0;dashed=1;dashPattern=6 4;" target="profile" value="&lt;&lt;extend&gt;&gt;&#10;[CV selected]">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-14.5" as="offset" />
+            <Array as="points">
+              <mxPoint x="835" y="231" />
+              <mxPoint x="835" y="333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="profile_review" edge="1" parent="1" source="profile" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.75;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;dashed=1;dashPattern=6 4;" target="review" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6" y="44" as="offset" />
+            <Array as="points">
+              <mxPoint x="820" y="379" />
+              <mxPoint x="820" y="386" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plan_explain" edge="1" parent="1" source="create" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;dashed=1;dashPattern=6 4;" target="explain" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="59.5" as="offset" />
+            <Array as="points">
+              <mxPoint x="825" y="1031" />
+              <mxPoint x="825" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ai_upload" edge="1" parent="1" source="ai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="upload" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1392.5" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ai_explain" edge="1" parent="1" source="ai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0.9;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;endArrow=none;edgeStyle=none;" target="explain" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1392.5" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  </mxfile>

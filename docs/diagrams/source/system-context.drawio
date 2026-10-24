@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" pages="1"><diagram id="01-system-context" name="System Context">
+    <mxGraphModel dx="1981" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1050" background="#ffffff" math="0" shadow="0" adaptiveColors="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;strokeColor=none;fillColor=none;align=left;fontStyle=1;" value="System context diagram" vertex="1">
+          <mxGeometry height="60" width="1400" x="580" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qadam" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=23;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;rounded=1;arcSize=8;fontStyle=1;" value="&#10;Career navigation and professional development platform&#10;&#10;Reviewed profile → role coverage&#10;→ saved development roadmap" vertex="1">
+          <mxGeometry height="270" width="450" x="560" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="esco" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#fff4dc;spacing=12;rounded=1;arcSize=8;" value="ESCO taxonomy&#10;&#10;Occupation and skill identifiers,&#10;labels and aliases" vertex="1">
+          <mxGeometry height="170" width="390" x="240" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="sources" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#fff4dc;spacing=12;rounded=1;arcSize=8;" value="Reviewed reference sources&#10;&#10;Selected vacancy evidence;&#10;learning resources and prerequisites" vertex="1">
+          <mxGeometry height="170" width="490" x="930" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0;entryY=0.45;entryPerimeter=0;startArrow=block;startFill=1;" target="qadam" value="Profile, choices and progress;&#10;recommendations and plans">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15.75" y="-91.5" as="offset" />
+            <Array as="points">
+              <mxPoint x="330" y="380" />
+              <mxPoint x="330" y="421.5" />
+            </Array>
+            <mxPoint x="220" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2" edge="1" parent="1" source="qadam" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.45;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;startArrow=block;startFill=1;" target="ai" value="Minimised task data / sources;&#10;structured output / explanations">
+          <mxGeometry relative="1" x="0.0738" y="55" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1090" y="421.5" />
+              <mxPoint x="1090" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3" edge="1" parent="1" source="esco" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitPerimeter=0;entryX=0.25;entryY=1;entryPerimeter=0;dashed=1;dashPattern=6 4;" target="qadam" value="Versioned taxonomy import">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-83.75" y="-30" as="offset" />
+            <Array as="points">
+              <mxPoint x="435" y="675" />
+              <mxPoint x="672.5" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c4" edge="1" parent="1" source="sources" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitPerimeter=0;entryX=0.75;entryY=1;entryPerimeter=0;dashed=1;dashPattern=6 4;" target="qadam" value="Reviewed catalogue and&#10;knowledge-base import">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="93.75" y="-45" as="offset" />
+            <Array as="points">
+              <mxPoint x="1175" y="675" />
+              <mxPoint x="897.5" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ai" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#f1ebfa;spacing=12;rounded=1;arcSize=8;" value="External AI provider&#10;OpenAI API&#10;&#10;CV information extraction;&#10;source-based explanations" vertex="1">
+          <mxGeometry height="230" width="320" x="1310" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_-h7qxrh2C5VxvOa_L-3-2" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#f1ebfa;spacing=12;rounded=1;arcSize=8;" value="Student /&#10;early-career user" vertex="1">
+          <mxGeometry height="220" width="180" x="30" y="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  </mxfile>
