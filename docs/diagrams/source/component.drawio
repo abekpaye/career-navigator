@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" pages="1"><diagram id="03-components-draft" name="Components - Draft">
+    <mxGraphModel dx="2146" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1730" background="#ffffff" math="0" shadow="0" adaptiveColors="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;strokeColor=none;fillColor=none;align=left;fontStyle=1;" value="Component diagram (draft)" vertex="1">
+          <mxGeometry height="65" width="1610" x="660" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="frontend" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=21;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;rounded=1;arcSize=8;" value="&lt;&lt;component&gt;&gt;  Web client&#10;React / TypeScript / Vite / Tailwind CSS&#10;Profile review, careers, roadmap, progress; EN / RU / KK" vertex="1">
+          <mxGeometry height="155" width="720" x="500" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=22;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#fafcfe;spacing=12;rounded=0;verticalAlign=top;align=left;spacingTop=15;spacingLeft=20;fontStyle=1;" value="FastAPI backend - internal modules" vertex="1">
+          <mxGeometry height="1010" width="1580" x="60" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="api" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=20;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;rounded=1;arcSize=8;" value="&lt;&lt;component&gt;&gt;  REST API&#10;Request validation; authenticated user context; error responses" vertex="1">
+          <mxGeometry height="125" width="600" x="550" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="profile" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;rounded=1;arcSize=8;" value="&lt;&lt;component&gt;&gt;  Accounts and profiles&#10;Authentication and record ownership&#10;Manual entry; CV validation / text parsing&#10;Editable extraction draft; reviewed profile versions" vertex="1">
+          <mxGeometry height="220" width="450" x="110" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="recommend" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;rounded=1;arcSize=8;" value="&lt;&lt;component&gt;&gt;  Career recommendations&#10;ESCO aliases + semantic skill mapping&#10;Weighted requirement coverage and gaps&#10;Versioned analysis; stale-result detection" vertex="1">
+          <mxGeometry height="220" width="450" x="625" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=19;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;rounded=1;arcSize=8;" value="&lt;&lt;component&gt;&gt;  Roadmaps and progress&#10;Gap-to-task rules; NetworkX prerequisites&#10;Weekly-time estimates; immutable plan versions&#10;Progress transfer for unchanged tasks" vertex="1">
+          <mxGeometry height="220" width="450" x="1140" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="aiadapter" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#f1ebfa;spacing=12;rounded=1;arcSize=8;" value="&lt;&lt;component&gt;&gt;  AI integration adapter&#10;Minimise outbound data; validate output&#10;CV extraction; grounded explanation text&#10;Timeout / retry; reviewed-content fallback" vertex="1">
+          <mxGeometry height="190" width="450" x="110" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="repo" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#eaf2fb;spacing=12;rounded=1;arcSize=8;" value="&lt;&lt;component&gt;&gt;  Persistence layer&#10;SQLAlchemy repositories and transactions&#10;Ownership checks; idempotent writes&#10;Alembic schema migrations" vertex="1">
+          <mxGeometry height="190" width="450" x="625" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="retrieval" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#fff4dc;spacing=12;rounded=1;arcSize=8;" value="&lt;&lt;component&gt;&gt;  Catalogue and retrieval&#10;Ten roles; weighted requirements; ESCO IDs&#10;Prerequisites; reviewed tasks and resources&#10;PostgreSQL full-text retrieval; source IDs" vertex="1">
+          <mxGeometry height="190" width="450" x="1140" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="external" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=20;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#f1ebfa;spacing=12;rounded=1;arcSize=8;" value="External AI provider&#10;OpenAI API&#10;Server-side credentials" vertex="1">
+          <mxGeometry height="150" width="430" x="120" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="db" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=20;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#f4f6f8;spacing=12;shape=cylinder;boundedLbl=1;" value="PostgreSQL&#10;Users; profile / analysis versions;&#10;roadmaps and progress;&#10;reviewed reference data" vertex="1">
+          <mxGeometry height="190" width="450" x="625" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="imports" parent="1" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#1e293b;strokeColor=#52657a;strokeWidth=1.5;fillColor=#fff4dc;spacing=12;rounded=1;arcSize=8;" value="Project-team data preparation&#10;Reviewed ESCO / role / vacancy evidence&#10;Tasks, prerequisites and learning resources&#10;Versioned, validated import" vertex="1">
+          <mxGeometry height="150" width="450" x="1140" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="front_api" edge="1" parent="1" source="frontend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;" target="api" value="HTTPS / JSON REST">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" y="-32.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="api_profile" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.15;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;" target="profile" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="605" />
+              <mxPoint x="335" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="api_rec" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;" target="recommend" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="api_plan" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.85;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;" target="roadmap" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="605" />
+              <mxPoint x="1365" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="profile_ai" edge="1" parent="1" source="profile" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.25;exitY=1;exitPerimeter=0;entryX=0.25;entryY=0;entryPerimeter=0;" target="aiadapter" value="Extract draft">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2.5" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="profile_repo" edge="1" parent="1" source="profile" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.8;exitY=1;exitPerimeter=0;entryX=0.15;entryY=0;entryPerimeter=0;" target="repo" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="1020" />
+              <mxPoint x="692.5" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rec_repo" edge="1" parent="1" source="recommend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;" target="repo" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plan_repo" edge="1" parent="1" source="roadmap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.2;exitY=1;exitPerimeter=0;entryX=0.85;entryY=0;entryPerimeter=0;" target="repo" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="990" />
+              <mxPoint x="1007.5" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rec_catalogue" edge="1" parent="1" source="recommend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4;exitPerimeter=0;entryX=0.85;entryY=0;entryPerimeter=0;" target="retrieval" value="Role requirements">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="127.25" as="offset" />
+            <Array as="points">
+              <mxPoint x="1110" y="758" />
+              <mxPoint x="1110" y="940" />
+              <mxPoint x="1522.5" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plan_retrieval" edge="1" parent="1" source="roadmap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;" target="retrieval" value="Requirements + sources">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plan_ai" edge="1" parent="1" source="roadmap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.05;exitY=1;exitPerimeter=0;entryX=1;entryY=0.3;entryPerimeter=0;" target="aiadapter" value="Fixed tasks + retrieved sources">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-22.75" as="offset" />
+            <Array as="points">
+              <mxPoint x="1162.5" y="1045" />
+              <mxPoint x="590" y="1045" />
+              <mxPoint x="590" y="1147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="retrieval_repo" edge="1" parent="1" source="retrieval" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0;exitY=0.75;exitPerimeter=0;entryX=1;entryY=0.75;entryPerimeter=0;" target="repo" value="Read reference data">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2.5" y="65.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ai_external" edge="1" parent="1" source="aiadapter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;" target="external" value="HTTPS / minimised payload">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5" y="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="repo_db" edge="1" parent="1" source="repo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;" target="db" value="SQL / transactions">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="import_db" edge="1" parent="1" source="imports" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Arial;fontSize=16;fontColor=#334155;strokeColor=#52657a;strokeWidth=1.5;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;dashed=1;dashPattern=6 4;" target="db" value="Validated reference-data import">
+          <mxGeometry relative="1" x="-1" y="-211" as="geometry">
+            <mxPoint x="170" y="86" as="offset" />
+            <Array as="points">
+              <mxPoint x="1115" y="1525" />
+              <mxPoint x="1115" y="1535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
